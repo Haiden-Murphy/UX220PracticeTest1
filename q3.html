@@ -8,24 +8,72 @@ Write an article using semantic markup, header, footer, main and section. In the
 Color the header with white text on a blue background, the footer with white text on a green background, the main portion with black text o a parchment colored background. 
 Make the nouns in the header and footer have a text weight of 600, while the rest of the text has a font-weight of 400.
     -->
-</head>
+    <style>
+        body
+        {
+            font-weight: 400px;
+        }
+        
+        header
+        {
+            background-color: blue;
+            color: white;
+        }
 
-<!-- -------------------------------------------- -->
-<header>
-    
-</header>
+        main
+        {
+            background-color: rgb(174, 239, 181); 
+            color: black;
+        }
+        
+        footer
+        {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
     
 <!-- -------------------------------------------- -->
 <body>
-    <h2></h2>
-    <p>article goes here</p>
+    <header>
+        <h1>Compare and Contrasting: Old Fashioned Typesetting to Desktop Pubishing to HTML and CSS</h1>
+    </header>
 
-    
+    <main>
+        <h2>What's better, and how do they compare?</h2>
+        <p>
+            To be fair, all three of these writing methods are good at specific things. That said, old-fashioned typesetting might be the weakest here. Because of recent 
+            advances in technology, old typesetting has largely been phased out. For those of you unaware of what typesetting is, essentially it's the process of hand-selecting 
+            letters and symbols and arranging them physically or using a machine on some type of frame that can then be used in a printing press. 
+        </p>
+
+        <p>
+            Luckily, now we have more advanced technology. The digital era has brought us much easier and less labour-intensive means of sharing and recording information. 
+            Desktop publishing is what kicked typesetting out. In the early days, this method lacked accessibility in terms of sizing, but now there is more efficient software. 
+            Magazines, marketing teams, books, and more still use desktop publishing. 
+        </p>
+
+        <p>
+            The most versatile and fluid of these three methods is HTML and CSS. There is no set viewing size; everything has the capability to be altered and made more accessible. 
+            In a weird way,, it goes back to old-fashioned typesetting: you need to arrange the tags and content so that, when you click to view your page, it prints properly.
+        </p>
+    </main>
+
+    <footer>
+        <h3> Here's a link to a site that explains old fashioned type setting 
+            <a href="https://www.cartridgesave.co.uk/news/history-of-typesetting/?srsltid=AU7gw4V3_qHVvqQwX53rtue_Qmd_Bv9ehWl-dUn3kGBgJdHVPpgh89re">[CLICK HERE]</a>
+        </h3>
+
+        <h3> Here's a link to a site that explains digital publishing
+            <a href="https://www.stateofdigitalpublishing.com/digital-publishing/what-is-digital-publishing/">[CLICK HERE]</a>
+        </h3>
+
+        <h3> Here's a link to a site that explains HTML and CSS
+            <a href="https://www.w3schools.com/htmlcss/">[CLICK HERE]</a>
+        </h3>
+    </footer>
 </body>
     
 <!-- -------------------------------------------- -->
-<footer>
-    
-</footer>
-
 </html>
